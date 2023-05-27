@@ -1,0 +1,10 @@
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.headerImage{
+    width: 95vw;
+    box-shadow: 5px 5px 20px black;
+}

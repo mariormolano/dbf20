@@ -1,0 +1,24 @@
+.formulario{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    scroll-behavior: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskform{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2em;
+    padding: 1em 0;
+    margin-bottom: 10px;
+}
+
+.imgene-referencial{
+    max-width: 800px;
+}

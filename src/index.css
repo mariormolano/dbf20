@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background-image: url("./img/dbf20.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw;
+  background-color: rgb(105, 91, 59);
+  width: 100vw;
+  overflow-x: hidden;
+}
