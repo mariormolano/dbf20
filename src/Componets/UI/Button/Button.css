@@ -1,0 +1,17 @@
+.Button {
+  width: 160px;
+  height: 60px;
+  margin: 30px;
+  border-style: none;
+  border-radius: 20px;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 25px;
+  border-radius: 50px;
+  color: rgb(16, 65, 16);
+  background: #695b3b;
+  box-shadow: 12px 12px 24px #594d32, -12px -12px 24px #796944;
+}
+
+.Button:active {
+  box-shadow: inset 12px 12px 24px #594d32, inset -12px -12px 24px #796944;
+}

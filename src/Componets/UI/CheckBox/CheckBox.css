@@ -1,0 +1,23 @@
+.CheckBox__Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+}
+
+.CheckBox[type=checkbox]{
+    border-style: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    outline:1px solid rgb(2, 255, 2);
+    margin: 10px;
+}
+
+.CheckBox[type=checkbox]:checked{
+    border-style: none;
+    accent-color: rgb(64, 105, 51);
+}

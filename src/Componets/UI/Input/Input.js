@@ -1,6 +1,6 @@
-import "./styles.css";
+import "./Input.css";
 
-const InputText = ({
+const Input = ({
   label,
   value,
   type,
@@ -14,18 +14,19 @@ const InputText = ({
 }) => {
   console.log(rot);
   return (
-    <label className="label" style={{ backgroundImage: `url(${bg})` }}>
+    <label
+      className="Input__Container"
+      style={{ backgroundImage: `url(${bg})` }}
+    >
       <div
         className="inputBox"
         style={{ transform: `rotate(${rot}) translateX(${tr})` }}
       >
-        <div
-          className="labelText"
-          style={{ transform: `translateX(${ttr})` }}
-        >
+        <div className="labelText" style={{ transform: `translateX(${ttr})` }}>
           {label}
         </div>
         <input
+          className="Input"
           type={type ?? "text"}
           value={value ?? " "}
           required={required}
@@ -36,4 +37,4 @@ const InputText = ({
   );
 };
 
-export default InputText;
+export default Input;

@@ -1,25 +1,4 @@
-input {
-  height: 30px;
-  background-color: rgba(0, 0, 0, 0.219);
-  border-style: none;
-  border-radius: 20px;
-  outline: none;
-  font-size: 18px;
-  padding: 0px 10px;
-  width: 180px;
-}
-
-input:focus {
-  outline: none;
-  color: white;
-  font-weight: 900;
-}
-
-input::placeholder {
-  color: rgba(255, 255, 255, 0.603);
-}
-
-.label {
+.Input__Container {
   background-position: center;
   background-repeat: no-repeat;
   width: 350px;
@@ -29,6 +8,29 @@ input::placeholder {
   align-items: center;
   filter: drop-shadow(10px 10px 7px rgba(0, 0, 0, 0.856));
 }
+.Input {
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.219);
+  border-style: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 18px;
+  padding: 0px 10px;
+  width: 180px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+
+.Input:focus {
+  outline: none;
+  font-weight: 400;
+  color: white;
+}
+
+:Input::placeholder {
+  color: rgba(255, 255, 255, 0.603);
+}
+
 
 .inputBox {
   position: relative;

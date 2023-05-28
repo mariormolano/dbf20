@@ -14,6 +14,12 @@
     "categories": {
       "api": {
         "dbf20": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1lfr28c935i1x",
+          "type": "manual"
+        }
       }
     }
   }
