@@ -1,4 +1,5 @@
 .panoramico{
+  margin-top: 100px;
   width: 100vw;
   -webkit-filter: drop-shadow(-10px 0 70px #ffffff) drop-shadow(-10px 0 70px #ffffff) drop-shadow(-10px 0 70px #ffffff);
   filter: drop-shadow(-10px 0 70px #ffffff) drop-shadow(-10px 0 70px #ffffff) drop-shadow(-10px 0 70px #ffffff);

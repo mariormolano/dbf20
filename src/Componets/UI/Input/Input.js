@@ -12,7 +12,6 @@ const Input = ({
   tr,
   ttr,
 }) => {
-  console.log(rot);
   return (
     <label
       className="Input__Container"
